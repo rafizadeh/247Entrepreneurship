@@ -1,45 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Honey Wedding 
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
-17/ footer
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400,500");
 /*---------------------------------------------------- */
@@ -245,7 +204,7 @@ button:focus {
       margin-right: 30px; }
       @media (max-width: 1199px) {
         .header_area .navbar .nav .nav-item {
-          margin-0: 28px; } }
+          margin: 28px; } }
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 14px/100px "Roboto", sans-serif;
         text-transform: capitalize;
@@ -3163,5 +3122,3 @@ h6 {
         color: #000; }
 
 /*---------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
