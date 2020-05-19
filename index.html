@@ -12,11 +12,12 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
 	<link rel="stylesheet" href="vendors/animate-css/animate.css">
 	<link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/extra.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -34,7 +35,7 @@
 					<a class="navbar-brand logo_h" href="index.html">
 						<img src="img/Project logo.jpg">
 					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
+					<button class="navbar-toggler burger-btn" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -75,35 +76,15 @@
 
 	<!--================ Home Banner Area =================-->
 	<section class="home_banner_area">
-		<div class="owl-carousel owl-theme" id="home-owl">
-			<div class="slide-item owl-lazy" data-src="img/banner/homebanner2.jpg">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5"></div>
-						<div class="col-lg-7">
-						</div>
-					</div>
-				</div>
+		<div class="homebannerSlider">
+			<div class="homeBannerSliderItem">
+				<img src="img/banner/homebanner.JPG" alt="">
 			</div>
-
-			<div class="slide-item owl-lazy" data-src="img/banner/homebanner.jpg">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5"></div>
-						<div class="col-lg-7">
-						</div>
-					</div>
-				</div>
+			<div class="homeBannerSliderItem">
+				<img src="img/banner/homebanner2.JPG" alt="">
 			</div>
-
-			<div class="slide-item owl-lazy" data-src="img/banner/homebanner3.jpg">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5"></div>
-						<div class="col-lg-7">
-						</div>
-					</div>
-				</div>
+			<div class="homeBannerSliderItem">
+				<img src="img/banner/homebanner3.JPG" alt="">
 			</div>
 		</div>
 	</section>
@@ -120,9 +101,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid">
-			<div class="row owl-carousel" id="travel_cat">
-				<div class="single_travel wow fadeIn" data-wow-duration="1s">
+
+		<div class="container-fluid paddingLeft">
+			<div class="row activitiesSlider" id="travel_cat">
+				<div class="single_travel wow fadeIn rightMargin" data-wow-duration="1s">
 					<figure>
 						<img class="img-fluid" src="img/travel/azerbaijan1.jpg" alt="">
 					</figure>
@@ -138,7 +120,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+				<div class="single_travel wow fadeIn rightMargin" data-wow-duration="1s" data-wow-delay=".3s">
 					<figure>
 						<img class="img-fluid" src="img/travel/georgia.jpg" alt="">
 					</figure>
@@ -148,19 +130,13 @@
 							<a href="news.html">Local Workshop in Georgia</a>
 						</h3>
 						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
-							<div class="meta">
-								<a href="#">
-									<span class="icon fa fa-calendar"></span> March 14, 2018
-									<span class="icon fa fa-comments"></span> 05
-								</a>
-							</div>
 							<div>
 								<a class="read_more" href="news.html">Read More</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+				<div class="single_travel wow fadeIn rightMargin" data-wow-duration="1s" data-wow-delay=".6s">
 					<figure>
 						<img class="img-fluid" src="img/travel/belarus1.jpg" alt="">
 					</figure>
@@ -170,19 +146,13 @@
 							<a href="news.html">Local Workshop in Belarus</a>
 						</h3>
 						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
-							<!-- <div class="meta">
-								<a href="#">
-									<span class="icon fa fa-calendar"></span> March 14, 2018
-									<span class="icon fa fa-comments"></span> 05
-								</a>
-							</div> -->
 							<div>
 								<a class="read_more" href="news.html">Read More</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
+				<div class="single_travel wow fadeIn rightMargin" data-wow-duration="1s" data-wow-delay=".9s">
 					<figure>
 						<img class="img-fluid" src="img/travel/tcaze11.jpg" alt="">
 					</figure>
@@ -192,19 +162,13 @@
 							<a href="news.html">International Training Course in Azerbaijan-I</a>
 						</h3>
 						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
-							<!-- <div class="meta">
-								<a href="#">
-									<span class="icon fa fa-calendar"></span> March 14, 2018
-									<span class="icon fa fa-comments"></span> 05
-								</a>
-							</div> -->
 							<div>
 								<a class="read_more" href="news.html">Read More</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+				<div class="single_travel wow fadeIn rightMargin" data-wow-duration="1s" data-wow-delay=".6s">
 					<figure>
 						<img class="img-fluid" src="img/travel/tcaze21.jpg" alt="">
 					</figure>
@@ -214,12 +178,6 @@
 							<a href="news.html">International Training Course in Azerbaijan-II</a>
 						</h3>
 						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
-							<!-- <div class="meta">
-								<a href="#">
-									<span class="icon fa fa-calendar"></span> March 14, 2018
-									<span class="icon fa fa-comments"></span> 05
-								</a>
-							</div> -->
 							<div>
 								<a class="read_more" href="news.html">Read More</a>
 							</div>
@@ -352,7 +310,7 @@
 		<div class="container">
 			<div class="single-footer-widget footer_middle">
 				<a href="index.html">
-				<img src="img/Project logo.jpg" alt="">
+					<img src="img/Project logo.jpg" alt="">
 				</a>
 				<p class="mt-50">24/7 Entrepreneurship</p>
 			</div>
@@ -383,23 +341,59 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
+	<script src="js/jquery.js"></script>
 	<script src="js/popper.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="js/stellar.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="vendors/lightbox/simpleLightbox.min.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"
-		type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
+	type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="vendors/isotope/imagesloaded.pkgd.min.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="vendors/isotope/isotope-min.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="vendors/jquery-ui/jquery-ui.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="js/jquery.ajaxchimp.min.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="js/mail-script.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="js/wow.min.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"
-		type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
 	<script src="js/theme.js" type="dfc8af3ad5083476e1c6383c-text/javascript"></script>
+	<script src="slick/slick.js"></script>
+	<script>
+		$('.homebannerSlider').slick({
+			arrows: false
+		});
+		$('.activitiesSlider').slick({
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			arrows: false,
+			dots: false,
+			autoplay: true,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+	</script>
+	<script src="js/script.js"></script>
 
 </body>
 

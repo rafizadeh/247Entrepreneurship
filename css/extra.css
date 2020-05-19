@@ -5,3 +5,29 @@
     width: 300px!important;
     height: 189px!important;
 }
+.owl-carousel{
+    display: none!important;
+}
+
+.homeBannerSliderItem img{
+    width: 90%;
+    margin: 50px auto;
+}
+.activitiesSlider{
+    margin: 0 auto!important;
+}
+.activitiesSlider .img-fluid{
+    width: 100%;
+}
+.rightMargin{
+    margin: auto!important;
+    width: 75%!important;
+    display: flex!important;
+    justify-content: center!important;
+}
+.activitiesSlider figure{
+    margin-bottom: 0!important;
+}
+.paddingLeft{
+    padding-left: 0px!important;
+}

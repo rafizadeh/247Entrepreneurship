@@ -557,7 +557,7 @@ width: 1200px; }
 /* Start Travel Category css
 ============================================================================================ */
 .travel_category {
-  padding: 150px 0 120px; }
+  padding: 70px 0 120px; }
   @media (max-width: 1024px) {
     .travel_category {
       padding: 100px 0 70px; } }
@@ -566,7 +566,6 @@ width: 1200px; }
       padding: 60px 0 30px; } }
   .travel_category .container-fluid {
     position: relative;
-    padding-left: 20%;
     padding-right: 0; }
     @media (max-width: 991px) {
       .travel_category .container-fluid {
